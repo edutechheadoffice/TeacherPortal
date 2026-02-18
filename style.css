@@ -4604,6 +4604,7 @@ body,
 
 .marquee {
   width: max-content;
+  margin-top: 60px;
   animation: marquee 120s linear infinite;
 }
 
