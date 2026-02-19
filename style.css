@@ -3471,6 +3471,25 @@ body,
     transform: scale(0.97);
 }
 
+@media (max-width: 768px) {
+    .school-card {
+
+        min-height: 50px;
+        padding: 10px;
+        margin-bottom: 80px;
+    }
+
+    .school-card img {
+    max-width: 80px;
+    max-height: 90px;
+    object-fit: contain;
+    margin-bottom: 24px;
+}
+
+    .school-card h4 {
+        min-height: auto;
+    }
+}
 .year-group {
   transition: opacity .45s ease, transform .45s ease;
 }
@@ -4636,6 +4655,11 @@ body,
 }
 
 /* Mobile */
+@media (max-width: 768px) {
+  .marquee {
+    margin-top:-10px
+  }
+}
 @media (max-width: 768px) {
   .marquee img {
     height: 45px;
@@ -5867,6 +5891,21 @@ footer.color-yellow .footer-bottom p a {
     letter-spacing: 0.4px;
     color: var(--color-paragraph);
     white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .brand-wrap {
+        gap: 8px;
+    }
+    .brand-logo {
+        width: 100px;
+    }
+    .brand-divider {
+        height: 20px;
+    }
+    .brand-text {
+        font-size: 12px;
+    }
 }
 .marquee-wrapper {
   position: relative;
